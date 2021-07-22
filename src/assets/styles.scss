@@ -160,6 +160,13 @@
   border-radius: 3px;
 }
 
+.sidebar {
+  margin-top: 20px;
+  h3 {
+    margin: 0 0 10px;
+  }
+}
+
 @media (max-width: 767px) {
   h1 {
     text-align: center;

@@ -104,10 +104,10 @@ export default function MoviesList() {
             <div className="col-md-9">
               <h1>Movies Gallery</h1>
               <div className="row filters">
-                <div className="col-md-4 filters__counter">
+                <div className="col-lg-4 filters__counter">
                   {filteredMovies.length} movies in the list
                 </div>
-                <div className="col-md-4 col-sm-6">
+                <div className="col-lg-4 col-sm-6">
                   Filter by Genre
                   <select onChange={handleChange}>
                     {genres.map((g, i) => (
@@ -117,7 +117,7 @@ export default function MoviesList() {
                     ))}
                   </select>
                 </div>
-                <div className="col-md-4 col-sm-6 text-end">
+                <div className="col-lg-4 col-sm-6 text-end">
                   <span>View: </span>
                   <div className="btn-group view__btn-group">
                     <button
@@ -157,7 +157,7 @@ export default function MoviesList() {
                 ))}
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 sidebar">
               <h3>Favorites List</h3>
               {favorites.length === 0 ? (
                 <span className="badge bg-danger">List is empty</span>

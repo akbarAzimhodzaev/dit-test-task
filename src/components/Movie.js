@@ -1,5 +1,5 @@
 export default function Movie({ movie, view, handleMovieClick, setFavorite }) {
-  let movieClasses = view === "grid" ? "col-6 col-sm-6 col-md-3" : "col-12";
+  let movieClasses = view === "grid" ? "col-6 col-sm-6 col-lg-3" : "col-12";
   return (
     <div className={movieClasses}>
       {view === "grid" ? (
